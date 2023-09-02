@@ -49,7 +49,6 @@ jobs:
           username: 'Wilson'
         run: |
           npm install
-          node index.js
 
 # Please do not touch the following action
       - name: Store deployment content
