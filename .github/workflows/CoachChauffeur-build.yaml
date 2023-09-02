@@ -47,7 +47,9 @@ jobs:
           SQUARE_APPLICATION_ID: 'sandbox-sq0idb-Gnvx0TbfarfAA6D1LO36xQ'
           SQUARE_LOCATION_ID: 'LGB29KW28HTB2'
           username: 'Wilson'
-        run: node index.js
+        run: |
+          npm install
+          node index.js
 
 # Please do not touch the following action
       - name: Store deployment content
